@@ -57,13 +57,10 @@
 [![](https://img.shields.io/badge/-Twitch-9146FF?style=flat-square&logo=twitch&logoColor=white)]()
 [![](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)]()
 [![](https://img.shields.io/badge/-Yandex_Tracker-5282FF?style=flat-square&logo=yandex&logoColor=white)]()
+[![](https://img.shields.io/badge/-DataLens-5282FF?style=flat-square&logo=yandexcloud&logoColor=white)]()
+[![](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)]()
 
 ### AI & Tools
 
 Использую актуальные AI инструменты в своей работе
 
----
-
-## Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=BlackC1over&show_icons=true&theme=dracula&hide_border=true)
