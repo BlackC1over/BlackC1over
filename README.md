@@ -23,14 +23,14 @@
 ---
 
 **Стек:** Python, ClickHouse, Redis, Docker, Vault, Linux  
+**Боты:** Telegram боты любой сложности (aiogram, FSM, API)  
+**Парсинг:** Под ключ — API + HTML парсинг, пагинация, rate limit  
 **Интеграции:** Ozon, WB, Yandex Market, 1С Denvic, Bitrix24  
 **Инфра:** VPS, Docker Compose, CI/CD, Grafana, SSH туннели  
 **AI:** OpenCode, Claude, Gemini, RAG + Obsidian  
 **Web3:** Solidity, Ethereum  
 
----
-
-Проекты: Marketplace DWH, 1С→ClickHouse реалтайм, Backup Daemon, Telegram бот, курс Junior DE
+Проекты: Marketplace DWH, 1С→ClickHouse реалтайм, Telegram бот @QZarBot, Backup Daemon, курс Junior DE
 
 ---
 
