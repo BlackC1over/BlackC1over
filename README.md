@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/-@samdeepsiders-1DA1F2?style=flat-square&logo=telegram&logoColor=white)](https://t.me/samdeepsiders)
 [![](https://img.shields.io/badge/-BlackC1over-181717?style=flat-square&logo=github)](https://github.com/BlackC1over)
 
-**Data Engineer** · seller.ru AI&ML · Екатеринбург
+**Data Engineer** · seller.ru · @samdeepsiders · Екатеринбург
 
 Проектирую и строю data-пайплайны под ключ.  
 Автоматизирую бизнес-процессы, интеграции маркетплейсов и 1С, realtime-обработку.  
