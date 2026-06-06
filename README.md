@@ -30,7 +30,7 @@
 **AI:** OpenCode, Claude, Gemini, RAG + Obsidian  
 **Web3:** Solidity, Ethereum  
 
-Проекты: Marketplace DWH, 1С→ClickHouse реалтайм, Telegram бот @QZarBot, Backup Daemon, курс Junior DE
+Проекты: Marketplace DWH, 1С→ClickHouse реалтайм, Telegram бот @QZarBot, Backup Daemon
 
 ---
 
