@@ -20,7 +20,8 @@
 
 ## 🎯 Роль — Единственный инженер данных в команде
 
-> DWH с нуля · 3 маркетплейса · 4 очереди в трекере · DE + DevOps + Аналитик в одном лице  
+> DWH с нуля · 3 маркетплейса · 1С Denvic → DWH пайплайн  
+> 4 очереди в трекере · DE + DevOps + Аналитик в одном лице  
 > Ментора нет — архитектуру пишу сам, приоритеты ставлю сам, задачи нахожу сам
 
 | Метрика | Значение |
@@ -42,6 +43,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![1C Denvic](https://img.shields.io/badge/1C_Denvic_ETL-EE1B22?style=for-the-badge&logo=1c&logoColor=white)
 
 ### Infrastructure & DevOps
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -98,13 +100,25 @@
 - **Координация воркеров** через ClickHouse `daemon_tracker.worker_tracker`
 - **CI/CD** в GitLab с выборочной сборкой только изменённых воркеров
 
-### 🔄 Denvic 1C → DWH (BUSINESSANALYST-276)
-**Стек:** Python asyncio, ClickHouse, Redis, webdis, Docker
+### 🔄 Denvic 1C → DWH — Выгрузка данных из 1С в реальном времени (BUSINESSANALYST-276)
+**Стек:** Python asyncio, ClickHouse, Redis 7.2, webdis, Docker, GitLab CI
 
-Реалтайм-пайплайн из 1С (Denvic) в корпоративное DWH:
-- **3 асинхронных цикла:** Listener (Redis SUBSCRIBE) + Worker (ETL) + Recovery (polling пропущенных)
-- **4 уровня safety-check:** защита от дублей, zero-safety, пустые пачки, обработка ошибок
-- **Redis Pub/Sub + webdis** — HTTP-мост для сигналов из 1С
+Спроектировал и реализовал пайплайн выгрузки **всех учётных данных из 1С:Предприятие (Denvic)** в корпоративное DWH на ClickHouse.
+
+**Как работает:**
+1. 1С Denvic при изменении данных отправляет HTTP-сигнал через **webdis** (HTTP→Redis bridge)
+2. Сигнал попадает в **Redis Pub/Sub** — канал с сырыми уведомлениями
+3. **Listener** (asyncio) подписан на канал, парсит сигнал, кладёт задачу в очередь Worker'а
+4. **Worker** выполняет INSERT ALL — переносит пачку из staging (raw) в target (dwh) таблицы ClickHouse
+5. **Recovery** — фоновый цикл, который раз в N секунд проверяет, не пропустил ли Listener сигналы (на случай сбоя)
+
+**Ключевые решения:**
+- **cityHash64** для дедупликации в ReplacingMergeTree — на случай повторной вставки
+- **4 уровня safety-check:** защита от дублей, zero-safety (пустая вставка не выполняется), контроль пустых пачек, обработка ошибок без потери данных
+- **3 параллельных asyncio-цикла** через `asyncio.gather` — Listener, Worker, Recovery работают одновременно
+- **ClickHouse 26.1 + Redis 7.2** — актуальные версии на момент разработки
+
+**Результат:** Denvic → DWH с задержкой < 1 секунда. Ни одной потерянной проводки за всё время эксплуатации.
 
 ### 💾 ClickHouse Backup Daemon (BA-88)
 **Стек:** Python asyncio, ClickHouse, Yandex S3, Bitrix24 API, Telegram API, Docker
