@@ -60,11 +60,7 @@
 
 ### AI & Tools
 
-[![](https://img.shields.io/badge/-OpenCode_CLI-6366F1?style=flat-square)]()
-[![](https://img.shields.io/badge/-Claude-8B5CF6?style=flat-square&logo=anthropic&logoColor=white)]()
-[![](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)]()
-[![](https://img.shields.io/badge/-RAG-0EA5E9?style=flat-square)]()
-[![](https://img.shields.io/badge/-Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white)]()
+Использую актуальные AI инструменты в своей работе
 
 ---
 
