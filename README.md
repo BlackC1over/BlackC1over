@@ -9,7 +9,7 @@
 ```
 
 <p align="center">
-  <a href="https://t.me/BlackC1over"><img src="https://img.shields.io/badge/@BlackC1over-191919?style=flat-square&logo=telegram"/></a>
+  <a href="https://t.me/samdeepsiders"><img src="https://img.shields.io/badge/@samdeepsiders-191919?style=flat-square&logo=telegram"/></a>
   <a href="https://github.com/BlackC1over/END_Tagger"><img src="https://img.shields.io/badge/END_Tagger-22C55E?style=flat-square&labelColor=111"/></a>
   <img src="https://komarev.com/ghpvc/?username=BlackC1over&style=flat-square&color=8B5CF6"/>
 </p>
