@@ -44,7 +44,6 @@
 ### Data Stack
 
 [![](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)]()
-[![](https://img.shields.io/badge/-Apache_Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)]()
 [![](https://img.shields.io/badge/-asyncio-3776AB?style=flat-square&logo=python&logoColor=white)]()
 
 ### Integrations
