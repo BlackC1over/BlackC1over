@@ -47,6 +47,14 @@
 [![](https://img.shields.io/badge/-Superset-20A0C8?style=flat-square&logo=apachesuperset&logoColor=white)]()
 [![](https://img.shields.io/badge/-asyncio-3776AB?style=flat-square&logo=python&logoColor=white)]()
 
+### DWH Architecture
+
+`Bronze → Silver → Mart` · `SCD2` · `ReplacingMergeTree` · `cityHash64`
+
+### Testing
+
+[![](https://img.shields.io/badge/-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)]()
+
 ### VCS
 
 [![](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)]()
