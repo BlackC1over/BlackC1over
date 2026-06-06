@@ -67,6 +67,6 @@
 [![Yandex Tracker](https://img.shields.io/badge/-Yandex_Tracker-5282FF?style=flat-square&logo=yandex&logoColor=white)]()
 [![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)]()
 
-### AI & Tools
+### AI
 
-Использую актуальные AI инструменты в своей работе для ускорения
+AI в работе — как сеньор в кармане. Не прошу написать код, прошу помочь подумать.
