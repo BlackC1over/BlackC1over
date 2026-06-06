@@ -9,227 +9,165 @@
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Семён-Data_Engineer-8B5CF6?style=flat-square&labelColor=1a1a2e"/>
-  <img src="https://img.shields.io/badge/📍-Екатеринбург-10B981?style=flat-square&labelColor=1a1a2e"/>
-  <img src="https://img.shields.io/badge/🏢-seller.ru_·_AI_ML-3B82F6?style=flat-square&labelColor=1a1a2e"/>
-  <img src="https://img.shields.io/badge/🛠-Solo_DE_+_DevOps-EF4444?style=flat-square&labelColor=1a1a2e"/>
-  <img src="https://img.shields.io/badge/⛓-Web3_·_Onchain_·_DeFi-F59E0B?style=flat-square&labelColor=1a1a2e"/>
+  <a href="https://t.me/BlackC1over"><img src="https://img.shields.io/badge/@BlackC1over-191919?style=flat-square&logo=telegram"/></a>
+  <a href="https://github.com/BlackC1over/END_Tagger"><img src="https://img.shields.io/badge/END_Tagger-бот-22C55E?style=flat-square&labelColor=111"/></a>
+  <img src="https://komarev.com/ghpvc/?username=BlackC1over&style=flat-square&color=8B5CF6"/>
+</p>
+
+<p align="center">
+  <b>Data Engineer / Solo DE · DevOps · Администратор инфраструктуры</b><br>
+  <sub>Семён · seller.ru (AI&ML) · Екатеринбург</sub>
 </p>
 
 ---
 
-## 🎯 Роль — Единственный инженер данных в команде
+## 🎯 Кто я
 
-> DWH с нуля · 3 маркетплейса · 1С Denvic → DWH пайплайн  
-> 4 очереди в трекере · DE + DevOps + Аналитик в одном лице  
-> Ментора нет — архитектуру пишу сам, приоритеты ставлю сам, задачи нахожу сам
+**Единственный инженер данных в команде.** Сам нахожу проблемы, проектирую архитектуру, пишу код, поднимаю инфраструктуру, документирую и администрирую.
+
+> DE + DevOps + Аналитик + Архитектор = Solo DE  
+> Ментора нет — я сам
 
 | Метрика | Значение |
-|---------|---------|
-| **Задачи (7 мес)** | 97 задач · 74 закрыто (76%) · 23 активны |
-| **Blocker/Critical** | 30 задач (31%) — почти треть — пожары |
-| **Комментарии** | 519 комментариев · 69 задач с обсуждениями |
-| **Worklog** | 218 часов · 130 записей · 32 задачи с трекингом |
-| **Очереди** | BusinessAnalyst · NikasDev · DataScientist · TheChumbucket |
-| **Проактивность** | 30 задач создал сам · 52% сам себе назначил |
+|---------|----------|
+| **Задачи (7 мес)** | 97 задач · 74 закрыто (76%) · 30 blocker/critical |
+| **Комментарии** | 519 · 69 задач с обсуждениями |
+| **Worklog** | 218 часов · 130 записей |
+| **Проактивность** | 30 задач создал сам · 52% self-assigned |
+| **Очереди** | BusinessAnalyst + NikasDev + DataScientist + TheChumbucket |
 
 ---
 
-## 🧰 Стек
+## 🧰 Стек — что реально используется в коде
 
-### Core Data
-![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![1C Denvic](https://img.shields.io/badge/1C_Denvic_ETL-EE1B22?style=for-the-badge&logo=1c&logoColor=white)
+### Языки и рантаймы
+`Python 3.12` · `asyncio` · `JavaScript` (JSX) · `Bash` / `PowerShell` · `SQL`
 
-### Infrastructure & DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![HashiCorp Vault](https://img.shields.io/badge/Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
-![Yandex S3](https://img.shields.io/badge/Yandex_S3-5282FF?style=for-the-badge&logo=yandexcloud&logoColor=white)
+### Базы данных
+`ClickHouse 26.1` — ReplacingMergeTree, MergeTree, SCD2, cityHash64, INSERT ALL  
+`Redis 7.2` — Pub/Sub, asyncio · `PostgreSQL` — asyncpg · `SQLite` — WAL mode
 
-### Marketplace APIs
-![Wildberries](https://img.shields.io/badge/Wildberries_API-6435FF?style=for-the-badge&logo=wildberries&logoColor=white)
-![Ozon](https://img.shields.io/badge/Ozon_API-005BFF?style=for-the-badge&logo=ozon&logoColor=white)
-![Yandex Market](https://img.shields.io/badge/Yandex_Market_API-FC3F1D?style=for-the-badge&logo=yandex&logoColor=white)
+### Основные библиотеки
+`aiogram 3` (FSM) · `aiohttp` · `httpx` · `hvac` (Vault) · `clickhouse-driver` / `clickhouse-connect`  
+`redis-py` · `asyncpg` · `pydantic` · `python-dotenv` · `paramiko` (SFTP) · `pytest` / `pytest-asyncio` · `ruff`
 
-### AI & ML
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white)
-![OpenCode CLI](https://img.shields.io/badge/OpenCode_CLI-6366F1?style=for-the-badge&logo=ai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-0EA5E9?style=for-the-badge&logo=deepnote&logoColor=white)
+### Инфраструктура
+`Docker` / `Docker Compose` (multi-stage, свои Dockerfile)  
+`Linux Ubuntu 24.04` · `Kubernetes` (осваиваю)  
+`Nginx` · `Grafana` · `Prometheus` · `HashiCorp Vault` (AppRole)  
+`Yandex S3` · `webdis` (HTTP → Redis) · `SSH` (туннели, порты, SOCKS5)
+
+### CI/CD и деплой
+`GitLab CI` — selective builds для микросервисов  
+`GitHub Actions` — SSH + Docker деплой  
+`SCP` / `SFTP` (paramiko) · `Docker Compose` на проде
+
+### Интеграции
+`Wildberries API` · `Ozon Seller API` · `Yandex Market API`  
+`1С Denvic` (выгрузка + webdis) · `Bitrix24 API` · `Telegram Bot API`  
+`Twitch API` · `YouTube API` · `Yandex Tracker API`
+
+### AI
+`OpenCode CLI` · `Claude` · `Gemini` · `OpenAI`  
+`RAG` + `Obsidian` (self-knowledge) · `MCP`
 
 ### Web3
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Web3](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
-![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=ethereum&logoColor=white)
+`Solidity` · `Ethereum` · `web3.py` · `Foundry`
 
-### Other
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![aiogram](https://img.shields.io/badge/aiogram_3-2F3134?style=for-the-badge&logo=telegram&logoColor=white)
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
+### Фронт и тулы
+`React` / `Vite` / `TailwindCSS` · `Dexie.js` (IndexedDB)  
+`Obsidian` (база знаний) · `Markdown` (документация)
 
 ---
 
-## 🏗 Ключевые проекты
+## 🖥 Администрирование и инфраструктура
 
-### 🏭 Marketplace ETL — DWH с нуля
-**Стек:** Python, ClickHouse, Docker, Vault, Ozon/WB/YM API, GitLab CI
+Сам поднимаю сервера, настраиваю, деплою, мониторю и чиню.
 
-Спроектировал и построил полный DWH для данных 3 маркетплейсов. Архитектура:
-- **12 микросервисов** в Docker Compose — dict_sku, stock, feedbacks, questions/answers
-- **Многослойная схема:** Bronze (raw API) → Silver (нормализация) → Mart (агрегаты)
-- **SCD2** для отслеживания истории остатков
-- **ReplacingMergeTree + cityHash64** для дедупликации
-- **HashiCorp Vault** — все секреты в безопасном хранилище
-- **Координация воркеров** через ClickHouse `daemon_tracker.worker_tracker`
-- **CI/CD** в GitLab с выборочной сборкой только изменённых воркеров
+```
+┌─ VPS ────────────────────────────────────────┐
+│  194.85.249.26 · Ubuntu 24.04                │
+│  ┌──────────┐ ┌────────────┐ ┌────────────┐  │
+│  │Telegram  │ │   SOCKS5   │ │   XRay     │  │
+│  │Bot       │ │   Proxy    │ │   VPN      │  │
+│  │Docker    │ │   :1080    │ │            │  │
+│  └──────────┘ └────────────┘ └────────────┘  │
+├──────────────────────────────────────────────┤
+│  PROD: Vault:8200 · Grafana:3000 · Prom      │
+│  DEV:  Vault (тесты)                         │
+│  CH:   ClickHouse:8123 · MCP:3838            │
+│  SSH туннели · Проброс портов                │
+└──────────────────────────────────────────────┘
+```
 
-### 🔄 Denvic 1C → DWH — Выгрузка данных из 1С в реальном времени (BUSINESSANALYST-276)
-**Стек:** Python asyncio, ClickHouse, Redis 7.2, webdis, Docker, GitLab CI
+**Деплой:** Docker Compose пишу сам. CI/CD настраиваю сам. Доку к docker-compose и Dockerfile веду сам. SSH/SFTP для ручного деплоя.
 
-Спроектировал и реализовал пайплайн выгрузки **всех учётных данных из 1С:Предприятие (Denvic)** в корпоративное DWH на ClickHouse.
+**Мониторинг:** Grafana дашборды, Prometheus метрики, Bitrix24 + Telegram алерты. Если что-то упало — я первый узнаю и первый чиню.
 
-**Как работает:**
-1. 1С Denvic при изменении данных отправляет HTTP-сигнал через **webdis** (HTTP→Redis bridge)
-2. Сигнал попадает в **Redis Pub/Sub** — канал с сырыми уведомлениями
-3. **Listener** (asyncio) подписан на канал, парсит сигнал, кладёт задачу в очередь Worker'а
-4. **Worker** выполняет INSERT ALL — переносит пачку из staging (raw) в target (dwh) таблицы ClickHouse
-5. **Recovery** — фоновый цикл, который раз в N секунд проверяет, не пропустил ли Listener сигналы (на случай сбоя)
-
-**Ключевые решения:**
-- **cityHash64** для дедупликации в ReplacingMergeTree — на случай повторной вставки
-- **4 уровня safety-check:** защита от дублей, zero-safety (пустая вставка не выполняется), контроль пустых пачек, обработка ошибок без потери данных
-- **3 параллельных asyncio-цикла** через `asyncio.gather` — Listener, Worker, Recovery работают одновременно
-- **ClickHouse 26.1 + Redis 7.2** — актуальные версии на момент разработки
-
-**Результат:** Denvic → DWH с задержкой < 1 секунда. Ни одной потерянной проводки за всё время эксплуатации.
-
-### 💾 ClickHouse Backup Daemon (BA-88)
-**Стек:** Python asyncio, ClickHouse, Yandex S3, Bitrix24 API, Telegram API, Docker
-
-Автоматический бэкап всех PROD-баз ClickHouse каждые 3 часа:
-- **Lock-механизм** через S3 — предотвращает конкурентные бэкапы
-- **Верификация** — восстановление на DEV + сверка row count
-- **Ретенция** — 24 часа с ротацией
-- **Уведомления** — Bitrix24 + Telegram со структурным отчётом
-- **Load testing** — проверка что прод не ляжет
-
-### 🤖 Telegram Bot — End Tagger (@QZarBot)
-**Стек:** Python, aiogram 3, SQLite, Docker, OpenCode CLI, asyncio
-
-Чат-менеджер с функционалом:
-- Ежедневные саммари через OpenCode AI
-- Twitch/YouTube алерты
-- Напоминания о днях рождения
-- Pidor-игры с пер-чат статистикой
-- Развёрнут на VPS в Docker
-
-### 🧠 Обучение Junior DE
-**Стек:** Python, ClickHouse, архитектурные паттерны
-
-Создал структурированный курс для джунов — 12 уроков с прогрессией:
-- От архитектуры ETL до production-паттернов
-- Разбор анти-паттернов и code style
-- Практические примеры из реального продакшена
+**Lock-механизмы в проектах:**
+- S3 Lock-файл — защита конкурентных бэкапов ClickHouse
+- `daemon_tracker.worker_tracker` — координация 12 воркеров маркетплейсов
+- Recovery cycle в 1С Denvic → DWH — zero-loss на случай сбоя Redis/сети
 
 ---
 
-## 🖥 Инфраструктура — VPS
+## 🏗 Проекты
 
-```
-┌─────────────────────────────────────────────────────┐
-│                    VPS (Ubuntu 24.04)               │
-│                    194.85.249.26                    │
-├─────────────────────────────────────────────────────┤
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐          │
-│  │Telegram  │  │   VPN    │  │   VPN    │          │
-│  │Bot       │  │SOCKS5    │  │XRay      │          │
-│  │@QZarBot  │  │:1080     │  │          │          │
-│  └──────────┘  └──────────┘  └──────────┘          │
-│                                                     │
-│  Внутренняя инфраструктура компании:                │
-│  ┌──────────┐  ┌──────────┐  ┌──────────────────┐  │
-│  │ClickHouse│  │  PROD    │  │  DEV             │  │
-│  │:8123     │  │Vault+Graf│  │  Vault (тесты)   │  │
-│  │MCP :3838 │  │:8200+3000│  │  :8200           │  │
-│  └──────────┘  └──────────┘  └──────────────────┘  │
-└─────────────────────────────────────────────────────┘
-```
+### 🏭 DWH 3 маркетплейсов (Wildberries, Ozon, Yandex Market)
+**12 микросервисов** в Docker Compose. Спроектировал архитектуру, написал все Dockerfile, docker-compose, CI/CD, документацию.
+- Bronze (raw API) → Silver (нормализация) → Mart (витрина seller_stocks)
+- SCD2 для истории остатков. ReplacingMergeTree + cityHash64 для дедупликации
+- `daemon_tracker.worker_tracker` — воркеры ждут друг друга перед пересборкой
+- HashiCorp Vault для API-ключей. Ниหนึ่ง секрет в коде
+- GitLab CI с точечной сборкой (только изменённый воркер)
+- Инкрементальная загрузка, rate limiting, chunked inserts по 100 записей
 
-| Сервис | Описание |
-|--------|----------|
-| **Telegram Bot** | @QZarBot — чат-менеджер с AI саммари |
-| **SOCKS5 Proxy** | Amnezia VPN для личного пользования |
-| **Docker** | Все сервисы в контейнерах |
-| **ClickHouse** | PROD DWH + DEV среда + MCP endpoint |
-| **Vault + Grafana** | Secrets management + мониторинг |
+### 🔄 1С Denvic → DWH в реальном времени
+**Redis Pub/Sub + webdis → 3 asyncio-цикла:** Listener + Worker + Recovery
+- HTTP-сигнал из 1С → webdis → Redis → ClickHouse. Задержка < 1 сек
+- Recovery polling — ни одна проводка не потеряна при сбое
+- 4 уровня safety-check: защита от дублей, zero-safety, empty check, error handling
+- cityHash64 в ReplacingMergeTree для идемпотентности
+
+### 💾 ClickHouse Backup Daemon
+Авто-бэкап всех PROD БД в Yandex S3 каждые 3 часа
+- S3 Lock-файл — предотвращает конкурентные запуски
+- Верификация: восстановление на DEV + сверка row count
+- Ретенция 24ч с ротацией. Bitrix24 + Telegram со структурным отчётом
+- Load testing перед запуском в прод
+
+### 🤖 Telegram Bot — @QZarBot (END_Tagger)
+Чат-менеджер с AI саммари через OpenCode CLI
+- Twitch/YouTube алерты, дни рождения, pidor-статистика per-chat
+- aiogram 3 (FSM), SQLite WAL, Docker на VPS
+- Миграции БД, тесты (pytest), CI/CD через GitHub Actions
+
+### 🧠 Курс Junior DE
+12 уроков по ETL архитектуре и паттернам. Разбор анти-паттернов. Код-стайл. Реальные примеры из прода.
 
 ---
 
 ## 🤖 AI как советчик, а не раб
 
-Я активно интегрирую AI в рабочий процесс, но **не как замену мышлению**, а как **инструмент для ускорения**:
+Не прошу написать код — прошу помочь подумать.
 
-```
-┌─ AI в моём workflow ──────────────────────────────────┐
-│                                                        │
-│  🔍 OpenCode CLI     — агент-помощник в терминале     │
-│  🧠 LLM Agents       — анализ кода, рефакторинг       │
-│  📚 RAG + Obsidian   — персональная база знаний       │
-│  🤖 Code Review      — AI code review                 │
-│  ⚡ Automation        — генерация тестов, миграций     │
-│  📊 Data Analysis    — SQL ассистент                  │
-│                                                        │
-│  Использую: OpenCode · Claude · Gemini · OpenAI       │
-│  Не прошу написать код — прошу помочь подумать        │
-└────────────────────────────────────────────────────────┘
-```
+`OpenCode CLI` · `Claude` · `Gemini` · `OpenAI`  
+`RAG + Obsidian` (личная база знаний) · `MCP инструменты` · `AI code review`
 
-> **Мой подход:** AI — это senior-разработчик в кармане, с которым можно обсуждать архитектуру, просить найти баги и оптимизировать запросы. Код всё ещё пишу сам.
+AI — это сеньор у меня в кармане. Код пишу сам, тесты пишу сам, архитектуру проектирую сам.
 
 ---
 
-## 📊 Статистика
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BlackC1over&show_icons=true&theme=react-dark&hide_border=true&count_private=true&include_all_commits=true" width="49%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BlackC1over&theme=react-dark&hide_border=true" width="49%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BlackC1over&theme=react-dark&hide_border=true&area=true" width="95%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BlackC1over&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" width="95%"/>
-</p>
-
----
-
-## 📬 Контакты
-
-<p align="center">
-  <a href="https://t.me/BlackC1over"><img src="https://img.shields.io/badge/Telegram-@BlackC1over-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  <a href="https://github.com/BlackC1over"><img src="https://img.shields.io/badge/GitHub-BlackC1over-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=BlackC1over&style=for-the-badge&color=8B5CF6&label=👀+Просмотров"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Автоматизация-да-blue?style=flat-square&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Данные-мой_путь-blue?style=flat-square&logo=clickhouse&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Web3-интересно-purple?style=flat-square&logo=ethereum&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AI-советчик_не_раб-F59E0B?style=flat-square&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Сборка-пиздатая-EF4444?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DWH-с_нуля-8B5CF6?style=flat-square"/>
+  <img src="https://img.shields.io/badge/1С_выгружаю-EF4444?style=flat-square"/>
+  <img src="https://img.shields.io/badge/VPS_администрирую-3B82F6?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Lock_механизмы-22C55E?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Документацию_веду-F59E0B?style=flat-square"/>
+  <img src="https://img.shields.io/badge/AI_советчик_не_раб-8B5CF6?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Сборка_пиздатая-EF4444?style=flat-square"/>
 </p>
