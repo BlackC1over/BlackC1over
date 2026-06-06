@@ -5,74 +5,74 @@
 
 **Data Engineer** · seller.ru AI&ML · Екатеринбург
 
-Автоматизирую бизнес-процессы в зоне ответственности данных.  
-Строю пайплайны, проектирую автоматизированных воркеров, пишу сложную логику ETL.  
-Беру на себя дополнительную роль DevOps и аналитика на основе данных.
+Проектирую и строю data-пайплайны под ключ.  
+Автоматизирую бизнес-процессы, интеграции маркетплейсов и 1С, realtime-обработку.  
+Беру на себя DevOps и аналитику — в команде я один за всю data-инфраструктуру.
 
 ---
 
 ### Languages
 
-[![](https://img.shields.io/badge/-Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white)]()
-[![](https://img.shields.io/badge/-SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)]()
-[![](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)]()
-[![](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)]()
-[![](https://img.shields.io/badge/-T--SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)]()
+[![Python](https://img.shields.io/badge/-Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white)]()
+[![SQL](https://img.shields.io/badge/-SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)]()
+[![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)]()
+[![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)]()
+[![T-SQL](https://img.shields.io/badge/-T--SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)]()
 
 ### Databases
 
-[![](https://img.shields.io/badge/-ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)]()
-[![](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)]()
-[![](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)]()
+[![ClickHouse](https://img.shields.io/badge/-ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)]()
+[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)]()
+[![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)]()
 
 ### Infrastructure
 
-[![](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)]()
-[![](https://img.shields.io/badge/-Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)]()
-[![](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)]()
-[![](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)]()
-[![](https://img.shields.io/badge/-Loki-F46800?style=flat-square&logo=grafana&logoColor=white)]()
-[![](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)]()
-[![](https://img.shields.io/badge/-Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black)]()
-[![](https://img.shields.io/badge/-Yandex_S3-5282FF?style=flat-square&logo=yandexcloud&logoColor=white)]()
+[![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)]()
+[![Docker Compose](https://img.shields.io/badge/-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)]()
+[![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)]()
+[![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)]()
+[![Loki](https://img.shields.io/badge/-Loki-F46800?style=flat-square&logo=grafana&logoColor=white)]()
+[![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)]()
+[![Vault](https://img.shields.io/badge/-Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black)]()
+[![Yandex S3](https://img.shields.io/badge/-Yandex_S3-5282FF?style=flat-square&logo=yandexcloud&logoColor=white)]()
 
 ### CI/CD
 
-[![](https://img.shields.io/badge/-GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)]()
-[![](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)]()
+[![GitLab CI](https://img.shields.io/badge/-GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)]()
+[![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)]()
 
-### Data Stack
+### Data & Analytics
 
-[![](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)]()
-[![](https://img.shields.io/badge/-Superset-20A0C8?style=flat-square&logo=apachesuperset&logoColor=white)]()
-[![](https://img.shields.io/badge/-asyncio-3776AB?style=flat-square&logo=python&logoColor=white)]()
+[![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)]()
+[![Superset](https://img.shields.io/badge/-Superset-20A0C8?style=flat-square&logo=apachesuperset&logoColor=white)]()
+[![asyncio](https://img.shields.io/badge/-asyncio-3776AB?style=flat-square&logo=python&logoColor=white)]()
+[![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)]()
 
 ### DWH Architecture
 
 `Bronze → Silver → Mart` · `SCD2` · `ReplacingMergeTree` · `cityHash64`
 
-### Testing
-
-[![](https://img.shields.io/badge/-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)]()
-
 ### VCS
 
-[![](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)]()
+[![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)]()
 
 ### Integrations
 
-[![](https://img.shields.io/badge/-Wildberries-6435FF?style=flat-square&logo=wildberries&logoColor=white)]()
-[![](https://img.shields.io/badge/-Ozon-005BFF?style=flat-square&logo=ozon&logoColor=white)]()
-[![](https://img.shields.io/badge/-Yandex_Market-FC3F1D?style=flat-square&logo=yandex&logoColor=white)]()
-[![](https://img.shields.io/badge/-1C_Denvic-EE1B22?style=flat-square)]()
-[![](https://img.shields.io/badge/-Bitrix24-2980B9?style=flat-square&logo=bitrix&logoColor=white)]()
-[![](https://img.shields.io/badge/-Twitch-9146FF?style=flat-square&logo=twitch&logoColor=white)]()
-[![](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)]()
-[![](https://img.shields.io/badge/-Yandex_Tracker-5282FF?style=flat-square&logo=yandex&logoColor=white)]()
-[![](https://img.shields.io/badge/-DataLens-5282FF?style=flat-square&logo=yandexcloud&logoColor=white)]()
-[![](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)]()
+[![Wildberries](https://img.shields.io/badge/-Wildberries-6435FF?style=flat-square&logo=wildberries&logoColor=white)]()
+[![Ozon](https://img.shields.io/badge/-Ozon-005BFF?style=flat-square&logo=ozon&logoColor=white)]()
+[![Yandex Market](https://img.shields.io/badge/-Yandex_Market-FC3F1D?style=flat-square&logo=yandex&logoColor=white)]()
+[![1C Denvic](https://img.shields.io/badge/-1C_Denvic-EE1B22?style=flat-square)]()
+[![Bitrix24](https://img.shields.io/badge/-Bitrix24-2980B9?style=flat-square&logo=bitrix&logoColor=white)]()
+[![DataLens](https://img.shields.io/badge/-DataLens-5282FF?style=flat-square&logo=yandexcloud&logoColor=white)]()
+[![Yandex Tracker](https://img.shields.io/badge/-Yandex_Tracker-5282FF?style=flat-square&logo=yandex&logoColor=white)]()
+[![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)]()
 
 ### AI & Tools
 
-Использую актуальные AI инструменты в своей работе для ускорения работы
+Использую актуальные AI инструменты в своей работе для ускорения
 
+---
+
+### Проекты
+
+`🏭 DWH 3 маркетплейсов` · `🔄 1С → DWH realtime` · `💾 CH Backup Daemon` · `🤖 @QZarBot`
