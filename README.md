@@ -78,3 +78,16 @@
 ### AI
 
 Использую современные AI-инструменты в работе. Понимаю пайплайны разработки и безопасность
+
+---
+
+[//]: # (Infographics)
+
+![Stats](https://github-readme-stats.vercel.app/api?username=BlackC1over&show_icons=true&theme=transparent&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&hide=contribs,prs,issues)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BlackC1over&layout=compact&theme=transparent&hide_border=true&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&size_weight=0.5&count_weight=0.5)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=BlackC1over&theme=react-dark&hide_border=true)
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=BlackC1over&style=flat-square&color=blue&label=visitors"/>
+</p>
